@@ -22,6 +22,7 @@ tinyDaemonOS/
 ├── main.cpp                # Kernel main entry point
 ├── shell.py                 # Global OS shell
 ├── boot.sh                  # Fake boot script for demonstration
+├── update.sh                #update
 ├── headerfiles/
 │   └── Daemon.h             # Global OS header definitions
 ├── disk0/
@@ -70,11 +71,11 @@ Each disk contains:
 
 ## 🛠 Build Instructions
 
-Clone and build:
+Clone and run:
 ```bash
-git clone https://github.com/YourUsername/tinyDaemonOS.git
-cd tinyDaemonOS
-make build
+git clone https://github.com/swiftrabbit-sys/tinyDemonOS/
+chmod a+u+x ./update.sh
+./boot
 ```
 
 ---
