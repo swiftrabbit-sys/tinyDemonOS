@@ -1,0 +1,25 @@
+MapleOS User Manual
+
+Version: 1.0
+Author: MapleOS Development Team
+Date: August 2025
+1. Introduction
+
+MapleOS is a lightweight, developer-friendly operating system designed for speed, simplicity, 
+and maximum customization. It provides a streamlined shell environment, integrated build 
+tools, and a modular file system layout for games, utilities, and OS-level tools.
+
+teps to Build a Program
+
+    Write your code in C or C++ in the folder you want.
+
+    Ensure one file contains main() — that’s your entry point.
+
+    Run:
+
+./update.sh
+
+The compiled executable will be in:
+
+./runnables/      # If in root folder
+
